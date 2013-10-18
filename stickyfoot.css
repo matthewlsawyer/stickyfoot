@@ -1,0 +1,41 @@
+/* Initial stuff */
+html,
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+/* Wrap in a table */
+.wrap {
+	height: 100%;
+	width: 100%;
+	display: table;
+}
+
+/* Each section is a row */
+.header,
+.content,
+.footer {
+	display: table-row;
+}
+
+/* Give the header some arbitrary size */
+.header {
+	height: 50px;
+	background: #ccc;
+}
+
+/* Content takes up the rest, leaving some space on the bottom */
+.content {
+	height: 100%;
+	margin: 0 0 -75px;
+	background: gray;
+}
+
+/* Height of the space you left at the bottom */
+.footer {
+	height: 75px;
+	background: #ccc;
+}
