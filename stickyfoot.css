@@ -27,7 +27,7 @@ body {
 	background: #ccc;
 }
 
-/* Content takes up the rest, leaving some space on the bottom */
+/* Content takes up the rest */
 .content {
 	height: 100%;
 	background: gray;
