@@ -21,7 +21,7 @@ body {
 	display: table-row;
 }
 
-/* Give the header some arbitrary size */
+/* Give the header some height */
 .header {
 	height: 50px;
 	background: #ccc;
@@ -30,11 +30,10 @@ body {
 /* Content takes up the rest, leaving some space on the bottom */
 .content {
 	height: 100%;
-	margin: 0 0 -75px;
 	background: gray;
 }
 
-/* Height of the space you left at the bottom */
+/* Height of the footer */
 .footer {
 	height: 75px;
 	background: #ccc;
